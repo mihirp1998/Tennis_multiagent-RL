@@ -28,7 +28,7 @@ conda install --file python3.yml
 
 ### File Info
 
-Reacher.app --> Unity enviornment for Mac devices
+Tennis.app --> Unity enviornment for Mac devices
 
 checkpoint_actor.pth,checkpoint_critic.pth ----> Saved model
 
