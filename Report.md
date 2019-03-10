@@ -10,14 +10,19 @@ Unlinke the other project the goal is to train both agents and perform well on b
 
 Actor:
 (FC layer input: 8  Output: 256),
+
 (FC layer input: 256  Output: 512)
+
 (FC layer input: 512  Output: action_size)
+
 
 Critic:
 (FC layer input: action_size +512  Output: 256),
+
 (FC layer input: 256  Output: 1)
 
-The first layer of actor has relu and the final layer has tanh
+
+The first layer of actor has <b>relu </b> and the final layer has <b>tanh</b>
 
 Where as the first layer of Critic has relu, with dropout.
 
