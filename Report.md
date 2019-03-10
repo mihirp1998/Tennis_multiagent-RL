@@ -28,6 +28,17 @@ Where as the first layer of Critic has relu, with dropout.
 
 We have used batch normalizer for both actor and critic
 
+HyperParams -
+* 2 hidden layers with 512 and 256 hidden units for both actor and critic
+* Replay batch size 512
+* Buffer size 1e6
+* Replay without prioritization
+* Update frequency 4
+* TAU from  1e-3
+* Learning rate 1e-4 for actor and 3e-4 for critic
+* Ornstein-Uhlenbeck noise
+* 20% droput for critic
+
 
 - Max Steps for training: 111
 
