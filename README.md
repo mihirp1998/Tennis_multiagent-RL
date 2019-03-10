@@ -1,7 +1,11 @@
-# Multiagent RL
+[//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
 [image2]: https://user-images.githubusercontent.com/10624937/42135622-e55fb586-7d12-11e8-8a54-3c31da15a90a.gif "Soccer"
+
+# Multiagent RL
+
+![Trained Agent][image1]
 
 ### Information
 This project is for multi agent RL, which deals in continous action space to take actions such that it maximizes the score of the agents..So that both they play tennis for longer time
